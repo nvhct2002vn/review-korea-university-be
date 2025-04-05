@@ -20,14 +20,14 @@ VALUES
 -- Insert university images
 INSERT INTO university_images (id, university_id, image_url, display_order, created_at)
 VALUES
-(1, 1, 'https://example.com/snu_campus1.jpg', 1, NOW()),
-(2, 1, 'https://example.com/snu_campus2.jpg', 2, NOW()),
-(3, 2, 'https://example.com/ku_campus1.jpg', 1, NOW()),
-(4, 2, 'https://example.com/ku_campus2.jpg', 2, NOW()),
-(5, 3, 'https://example.com/yonsei_campus1.jpg', 1, NOW()),
-(6, 3, 'https://example.com/yonsei_campus2.jpg', 2, NOW()),
-(7, 4, 'https://example.com/kaist_campus1.jpg', 1, NOW()),
-(8, 5, 'https://example.com/pnu_campus1.jpg', 1, NOW());
+(1, 1, 'https://en.snu.ac.kr/webdata/uploads/eng/image/2020/02/index-campas-img01.jpg', 1, NOW()),
+(2, 1, 'https://english.seoul.go.kr/wp-content/uploads/2021/03/seoul-national-university-13.jpg', 2, NOW()),
+(3, 2, 'https://www.novalandtours.com/images/Gyeonggi/Seoul/Seoul%20National%20University%20Gwanak%20Campus', 1, NOW()),
+(4, 2, 'https://mcdonnell.wustl.edu/wp-content/uploads/2020/10/SNU.jpg', 2, NOW()),
+(5, 3, 'https://t1.unipage.net/src/uni_75.jpeg', 1, NOW()),
+(6, 3, 'https://i.ytimg.com/vi/qlym8AwYVq4/maxresdefault.jpg', 2, NOW()),
+(7, 4, 'https://static.wixstatic.com/media/0505b9_04ed69a45009494ea29565dfddf4b9a9~mv2.jpg/v1/fill/w_640%2Ch_569%2Cal_c/0505b9_04ed69a45009494ea29565dfddf4b9a9~mv2.jpg', 1, NOW()),
+(8, 5, 'https://ubitto.com/wp-content/uploads/2019/10/imgSub53110_01-1024x576.jpg', 1, NOW());
 
 -- Insert university departments
 INSERT INTO university_departments (id, university_id, name, created_at)

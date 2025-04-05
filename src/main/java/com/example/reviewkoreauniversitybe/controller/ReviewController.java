@@ -16,7 +16,7 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/api/reviews")
+@RequestMapping("/reviews")
 @CrossOrigin(origins = "*") // Allow from all origins for now
 public class ReviewController {
     
