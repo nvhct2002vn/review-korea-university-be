@@ -41,7 +41,7 @@ public class UniversityController {
     @GetMapping
     public ResponseEntity<ApiResponse<PageResponseDTO<UniversityDTO>>> getAllUniversities(
             @RequestParam(defaultValue = "0") int page,
-            @RequestParam(defaultValue = "10") int size,
+            @RequestParam(defaultValue = "12") int size,
             @RequestParam(defaultValue = "name") String sortBy,
             @RequestParam(required = false) String location,
             @RequestParam(required = false) String type,
